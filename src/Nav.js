@@ -5,11 +5,11 @@ function Nav() {
     return (
         <div>
             
-                        <Link className="link" to="/Business" > Business </Link>
+                        <Link className="link" to="/Business" > Biotechnology </Link>
                   
-                        <Link className="link" to="/Fiction" > Fiction </Link>
+                        <Link className="link" to="/Fiction" > sci-fi </Link>
                  
-                        <Link className="link" to="/JavaScript" > JavaScript </Link>
+                        <Link className="link" to="/JavaScript" > Action/History </Link>
                         <hr />
                    
             

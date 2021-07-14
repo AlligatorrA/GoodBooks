@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-body{background-color: darkblue;}
+
 
 .App .logo {
   margin-top: 2rem;
@@ -20,14 +20,14 @@ body{background-color: darkblue;}
 .App-header {
   max-width: 900px;
   margin: auto;
-  background-color: #165eee;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
 .App-link {

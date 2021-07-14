@@ -4,12 +4,17 @@ function Business() {
     return (
         <>
         <div className="box">
-          Never Split the Difference <br />
-          3.5/5
+          Mutation <br />
+          4.5/5
     </div>
      <div className="box">
-        Loonshots <br />
+        Cell Cloning <br />
         5/5
+ </div>
+     <div className="box">
+       The Good Doctor <br />
+         <br />
+        4.5/5
  </div>
  </>
     )

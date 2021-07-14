@@ -4,12 +4,16 @@ function javaScript() {
     return (
         <>
         <div className="box" >
-            Eloquent javaScript <br />
+            Spartacus <br />
              4/5
         </div>
         <div className="box" >
-           You Don't Know JS <br />
+           Wu Assassins <br />
            3.5/5
+    </div>
+        <div className="box" >
+           Marvel's The Punisher <br />
+           4.5/5
     </div>
     </ >
     )

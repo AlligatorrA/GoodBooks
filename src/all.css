@@ -1,12 +1,50 @@
-.link{
-    background-color:rgba(0, 0, 0, 0.884) ;
+/* .link{
+   
+    cursor: pointer;
+    background-color:rgba(245, 235, 235, 0.884) ;
     color: rgb(233, 233, 233);
-    margin: 1rem;
-    padding: 0.5rem;
+    margin: 16px 4.8px;
+    padding: 0.6rem ;
     text-decoration: none;
     border: 1px solid black;
-    border-radius: 2rem;
+    border-radius: 1rem;
+} */
+#btn{
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 1rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+   
 }
+#btn1{
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+   
+}
+#btn2{
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+   
+}
+.link{
+    text-decoration:none;
+    color: white;
+}
+
+
 hr{
     margin: 2rem;
 }

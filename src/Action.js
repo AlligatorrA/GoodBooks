@@ -15,6 +15,12 @@ function javaScript() {
            Marvel's The Punisher <br />
            4.5/5
     </div>
+    <div className="box" >
+           Vikings <br />
+           5/5
+    </div>
+    
+    
     </ >
     )
 }

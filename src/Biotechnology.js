@@ -13,7 +13,7 @@ function Business() {
  </div>
      <div className="box">
        The Good Doctor <br />
-         <br />
+        
         4.5/5
  </div>
  </>

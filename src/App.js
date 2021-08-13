@@ -1,4 +1,4 @@
-import books from './books.jpg';
+// import Ivar from './ivar.jpg';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import "./all.css"
@@ -9,13 +9,13 @@ import JavaScript from "./JavaScript";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
           <div className="head">   
-            <img className="logo" src={books} alt="oops" /> <h1>goodbooks</h1></div>
+             <h1>favourite Webseries</h1></div>
             
          
-      <p>Checkout my favorite books. select a genre to get started.</p>
+      <p>Checkout my favorite Webseries. select a genre to get started.</p>
         
       <Nav />
        <Switch>
@@ -36,7 +36,7 @@ function PageNotFound(){
   return(
      <div>
        <h1>
-         <i>Working on it, Mate !</i>
+         <i>Select genre, Mate !</i>
        </h1>
      </div>
   )

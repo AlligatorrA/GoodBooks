@@ -1,14 +1,4 @@
-/* .link{
-   
-    cursor: pointer;
-    background-color:rgba(245, 235, 235, 0.884) ;
-    color: rgb(233, 233, 233);
-    margin: 16px 4.8px;
-    padding: 0.6rem ;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 1rem;
-} */
+
 #btn{
     font-size: 1rem;
     cursor: pointer;
@@ -47,6 +37,7 @@
 
 hr{
     margin: 2rem;
+    color: whitesmoke;
 }
 .box{
     height: 10vh;

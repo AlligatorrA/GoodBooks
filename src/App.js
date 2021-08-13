@@ -1,27 +1,27 @@
-// import Ivar from './ivar.jpg';
+import Books from './books.jpg';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import "./all.css"
 import Nav from "./Nav";
-import Business from "./Business";
+import Biotechnology from "./Biotechnology";
 import Fiction from "./Fiction";
-import JavaScript from "./JavaScript";
+import Action from "../src/Action";
 
 function App() {
   return (
     <div className="App" >
       <header className="App-header">
           <div className="head">   
-             <h1>favourite Webseries</h1></div>
+           <img className="logo" src={Books} alt="oops" />  <h1>GoodBooks</h1></div>
             
          
-      <p>Checkout my favorite Webseries. select a genre to get started.</p>
+      <p>Checkout my favorite books. select a genre to get started.</p>
         
       <Nav />
        <Switch>
-         <Route path="/Business" exact={true}  > <Business /> </Route>
+         <Route path="/Biotechnology" exact={true}  > <Biotechnology /> </Route>
          <Route path="/Fiction" > <Fiction /> </Route>
-         <Route path="/JavaScript"> <JavaScript /> </Route>
+         <Route path="/Action"> <Action /> </Route>
       <Route path="*" ><PageNotFound /></Route>
 
        </Switch>
